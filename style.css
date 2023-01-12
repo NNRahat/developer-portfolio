@@ -5,6 +5,12 @@
 body{
     font-family: 'Ubuntu', sans-serif;
 }
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
 .main-vh{
     height: 100vh;
     display: flex;
@@ -25,7 +31,7 @@ body{
 }
 .leka h1{
     margin: 18px 5% 40px;
-    font-size: 40px;
+    
 }
 .leka h3{
     margin: 18px 5% 20px;
@@ -70,10 +76,10 @@ body{
     margin: 5px 5% 30px;
     font-size: 20px;
 }
-/* .leka2 h1{
+.leka2 h1{
     margin: 18px 5% 40px;
-    font-size: 40px;
-} */
+    
+}
 .leka2 h3{
     margin: 50px 5% 40px;
     font-size: 22px;
@@ -86,4 +92,44 @@ body{
     text-decoration: none;
     border-radius: 10px;
     background-image: linear-gradient(rgb(255, 123, 0),orange);
+}
+.experience{
+    background-image: url(images/cool-background.png);
+}
+
+.card-box{
+    width: 100%;
+    display: flex;
+}
+.card-box h1,h3,p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.card{
+    margin: 30px 5%;
+    padding: 20px;
+    width: 35%;
+    /* left: 0; */
+    box-shadow: 2px 2px 30px rgb(73, 67, 67);
+    border-radius: 12px;
+}
+/* .card{
+    margin: 30px 5%;
+    padding: 20px;
+    width: 35%;
+    box-shadow: 2px 2px 30px rgb(73, 67, 67);
+    border-radius: 12px;
+} */
+#card-left{
+    border-left: solid;
+    border-color: orange;
+}
+#card-right{
+    border-left: solid;
+    border-color: rgb(0, 51, 255);
+}
+
+.footer{
+    text-align:center;
+    margin: 50px;
 }
